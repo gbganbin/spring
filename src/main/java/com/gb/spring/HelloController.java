@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("/hello")
     private String index(){
+
         return "hello world";
     }
 }
